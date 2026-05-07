@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
+import logo from "../assets/eGov-Foundation.png";
 import {
   openDropdown,
   closeDropdown,
@@ -152,11 +153,7 @@ function Header() {
             {/* Logo */}
 
             <a href="#" className="flex-shrink-0">
-              <img
-                src="/assets/eGov-Foundation.png"
-                alt="eGov Foundation"
-                className="h-11 w-auto"
-              />
+              <img src={logo} alt="eGov Foundation" className="h-11 w-auto" />
             </a>
 
             {/* Desktop nav items */}
