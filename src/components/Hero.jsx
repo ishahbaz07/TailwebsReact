@@ -1,10 +1,11 @@
+import hero from "../assets/New-Home-Page-Banner-Image.png";
 function Hero() {
   return (
     <div className="relative bg-white min-h-[700px] flex items-start overflow-hidden mb-0">
       {/* Background Image*/}
       <div className="absolute top-[-65px] right-0 w-[76%] hidden md:block">
         <img
-          src="/assets/New-Home-Page-Banner-Image.png"
+          src={hero}
           alt="Citizens using digital services"
           className="w-full h-full object-cover object-left-top"
         />

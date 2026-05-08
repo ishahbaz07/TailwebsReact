@@ -52,7 +52,7 @@ function BoldApproaches() {
                     <h3 className="text-4xl md:text-6xl font-bold text-white mb-4 tracking-wide">
                       {card.number}
                     </h3>
-                    <p className="text-white text-sm md:text-[16px] mb-6 md:mb-8 leading-snug max-w-[180px]">
+                    <p className="text-[#0E165D] text-sm md:text-[16px] mb-6 md:mb-4 leading-snug max-w-[180px]">
                       {card.text}
                     </p>
                     <a

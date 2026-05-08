@@ -1,10 +1,13 @@
+import girlImage from "../assets/DIGIT-Image-Only.png";
+import digitLogo from "../assets/digit-n.png";
+
 function Digit() {
   return (
     <section className="relative mt-8 md:mt-16  py-16 md:py-20 bg-[#0E165D] overflow-visible">
       {/* Image — desktop only */}
       <div className="absolute right-0 md:right-24 lg:right-36 -mt-32 md:-mt-40 h-full w-1/2 hidden lg:block">
         <img
-          src="/assets/DIGIT-Image-Only.png"
+          src={girlImage}
           alt="Girl using mobile"
           className="h-[113%] w-full object-contain object-right"
         />
@@ -13,7 +16,7 @@ function Digit() {
       <div className="max-w-7xl mx-auto px-6 sm:px-10 lg:px-4">
         <div className="w-full lg:max-w-lg relative z-10 lg:ml-16">
           <img
-            src="/assets/digit-n.png"
+            src={digitLogo}
             alt="DIGIT by eGov Foundation"
             className="h-12 md:h-20 w-auto mb-5 md:mb-6"
           />
