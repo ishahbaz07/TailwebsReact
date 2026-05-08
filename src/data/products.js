@@ -1,3 +1,28 @@
+import icuImage from "../assets/icuImage.png";
+import vaccinationImage from "../assets/vaccinationImage.png";
+import StateLed from "../assets/State-led-Thumb.jpg";
+import DOtSeptember from "../assets/DOT-September-Thumb.jpg";
+import dot2025 from "../assets/dot-2025-5.jpg";
+import ScalerArticle from "../assets/Scaler-Article-Thumb-1.jpg";
+import Systems from "../assets/Systems-to-Ecosystems-Thumb.jpg";
+import Elected from "../assets/Elected-Representative-Thumb.webp";
+import publicData from "../assets/public-data-privacy.jpg";
+import PravimalStory from "../assets/Pravimal-StoryThumb-1.jpg";
+import propertyTax from "../assets/property-tax-thumb.jpg";
+import NIUA from "../assets/NIUA-SP-Thumb-1.png";
+import Sanitation from "../assets/Sanitation-SP-Thumb-1.png";
+import PFM from "../assets/PFM-SP-Thumb-1.png";
+import PunjabEeGov from "../assets/Punjab-eGov-Mou.jpg";
+import Punjab from "../assets/Punjab-eGov-Mou.jpg";
+import leardership from "../assets/leardership-talk.jpg";
+import sujoog from "../assets/sujoog.jpg";
+import egram from "../assets/egram.jpg";
+import billMelinda from "../assets/billi-melinda.png";
+import tataTrusts from "../assets/tatatrusts.png";
+import coDevelop from "../assets/co-develop.png";
+import globalFund from "../assets/global-fund.png";
+import nilekani from "../assets/nilekani.png";
+
 export const categories = [
   "What's New",
   "Articles",
@@ -14,7 +39,7 @@ export const initialState = {
     {
       id: 1,
       category: "What's New",
-      image: "/assets/State-led-Thumb.jpg",
+      image: StateLed,
       title: "State-led Urban Digital Transformation",
       author: "Mathews P Joseph +2 More",
       date: "13 Mar 2026",
@@ -30,7 +55,7 @@ export const initialState = {
     {
       id: 2,
       category: "What's New",
-      image: "/assets/DOT-September-Thumb.jpg",
+      image: DOtSeptember,
       title: "DOT – A DIGIT QUARTERLY NEWSLETTER",
       author: "eGov Foundation +2 More",
       date: "20 Jan 2026",
@@ -40,7 +65,7 @@ export const initialState = {
     {
       id: 3,
       category: "What's New",
-      image: "/assets/dot-2025-5.jpg",
+      image: dot2025,
       title: "DOT 2025 | TOP STORIES OF PARTNERSHIPS & IMPACT",
       author: "eGov Foundation +2 More",
       date: "30 Dec 2025",
@@ -50,7 +75,7 @@ export const initialState = {
     {
       id: 4,
       category: "Articles",
-      image: "/assets/Scaler-Article-Thumb-1.jpg",
+      image: ScalerArticle,
       title: "Tech for Billions, Talent for None: Fixing GovTech's Biggest Gap",
       author: "Darshana Ramdev",
       date: "10 Mar 2025",
@@ -60,7 +85,7 @@ export const initialState = {
     {
       id: 5,
       category: "Articles",
-      image: "/assets/Systems-to-Ecosystems-Thumb.jpg",
+      image: Systems,
       title:
         "From Systems to Ecosystems: A Shared Journey to Build Digital Public Goods",
       author: "Viraj Tyagi",
@@ -75,7 +100,7 @@ export const initialState = {
     {
       id: 6,
       category: "Whitepapers",
-      image: "/assets/Elected-Representative-Thumb.webp",
+      image: Elected,
       title: "Our Journey to National-Scale Impact",
       author: "eGov Foundation",
       date: "22 Aug 2024",
@@ -85,7 +110,7 @@ export const initialState = {
     {
       id: 7,
       category: "Whitepapers",
-      image: "/assets/public-data-privacy.jpg",
+      image: publicData,
       title: "How Public Should Public Data Be Privacy & E-governance in India",
       author: "eGov Foundation",
       date: "22 Aug 2024",
@@ -95,7 +120,7 @@ export const initialState = {
     {
       id: 8,
       category: "Case Studies",
-      image: "/assets/Pravimal-StoryThumb-1.jpg",
+      image: PravimalStory,
       title:
         "Enabling Social Benefit Delivery through Digital Public Infrastructure",
       author: "eGov Foundation",
@@ -106,7 +131,7 @@ export const initialState = {
     {
       id: 9,
       category: "Case Studies",
-      image: "/assets/property-tax-thumb.jpg",
+      image: propertyTax,
       title:
         "Accelerating Revenue Mobilisation through Digital Public Infrastructure (DPI)",
       author: "eGov Foundation",
@@ -122,7 +147,7 @@ export const initialState = {
     {
       id: 10,
       category: "Strategy Papers",
-      image: "/assets/NIUA-SP-Thumb-1.png",
+      image: NIUA,
       title: "National Urban Innovation Stack – Strategy & Approach",
       author: "eGov Foundation",
       date: "13 Aug 2024",
@@ -132,7 +157,7 @@ export const initialState = {
     {
       id: 11,
       category: "Strategy Papers",
-      image: "/assets/Sanitation-SP-Thumb-1.png",
+      image: Sanitation,
       title:
         "Reimagining Sanitation Services with Digital Public Infrastructure – A Strategy Note",
       author: "eGov Foundation",
@@ -143,7 +168,7 @@ export const initialState = {
     {
       id: 12,
       category: "Strategy Papers",
-      image: "/assets/PFM-SP-Thumb-1.png",
+      image: PFM,
       title: "Strategy and Approach to Public Financial Management",
       author: "eGov Foundation",
       date: "12 Aug 2024",
@@ -153,7 +178,7 @@ export const initialState = {
     {
       id: 13,
       category: "News & Media",
-      image: "/assets/Punjab-eGov-Mou.jpg",
+      image: PunjabEeGov,
       title:
         "Karnataka's Centre for Smart Governance and eGov Foundation Announce Strategic Partnership",
       author: "eGov Foundation",
@@ -164,7 +189,7 @@ export const initialState = {
     {
       id: 14,
       category: "News & Media",
-      image: "/assets/Punjab-eGov-Mou.jpg",
+      image: Punjab,
       title:
         "AI for Sustainable Cities: AIRAWAT and eGov Foundation Launch Strategic Partnership",
       author: "eGov Foundation",
@@ -175,7 +200,7 @@ export const initialState = {
     {
       id: 15,
       category: "Videos",
-      image: "/assets/leardership-talk.jpg",
+      image: leardership,
       title:
         "Leadership Talks: Viraj Tyagi on lessons learnt on driving digital innovation",
       author: "eGov Foundation",
@@ -186,7 +211,7 @@ export const initialState = {
     {
       id: 16,
       category: "Videos",
-      image: "/assets/sujoog.jpg",
+      image: sujoog,
       title: "SUJOG in Odisha",
       author: "eGov Foundation",
       date: "17 Apr 2025",
@@ -196,7 +221,7 @@ export const initialState = {
     {
       id: 17,
       category: "Videos",
-      image: "/assets/egram.jpg",
+      image: egram,
       title: "mGramSeva Punjab",
       author: "eGov Foundation",
       date: "31 Jan 2025",
@@ -206,7 +231,7 @@ export const initialState = {
     {
       id: 18,
       category: "Newsletter",
-      image: "/assets/DOT-September-Thumb.jpg",
+      image: DOtSeptember,
       title: "DOT – A DIGIT QUARTERLY NEWSLETTER",
       author: "eGov Foundation",
       date: "20 Jan 2026",
@@ -216,7 +241,7 @@ export const initialState = {
     {
       id: 19,
       category: "Newsletter",
-      image: "/assets/dot-2025-5.jpg",
+      image: dot2025,
       title: "DOT 2025 | TOP STORIES OF PARTNERSHIPS & IMPACT",
       author: "eGov Foundation",
       date: "30 Dec 2025",
@@ -235,13 +260,13 @@ export const boldApproaches = [
         number: "210+",
         text: "cities LIVE with 10BedICU across India",
         color: "cyan",
-        image: "/assets/icuImage.png",
+        image: icuImage,
       },
       {
         number: "2 Bn",
         text: "COVID-19 vaccination certificates issued",
         color: "blue",
-        image: "/assets/vaccinationImage.png",
+        image: vaccinationImage,
       },
     ],
   },
@@ -296,12 +321,12 @@ export const boldApproaches = [
 ];
 
 export const supporters = [
-  { name: "Co-Develop", logo: "/assets/co-develop.png" },
+  { name: "Co-Develop", logo: coDevelop },
   {
     name: "Bill & Melinda Gates Foundation",
-    logo: "/assets/billi-melinda.png",
+    logo: billMelinda,
   },
-  { name: "Tata Trusts", logo: "/assets/tatatrusts.png" },
-  { name: "The Global Fund", logo: "/assets/global-fund.png" },
-  { name: "Nandan Nilekani Philanthropies", logo: "/assets/nilekani.png" },
+  { name: "Tata Trusts", logo: tataTrusts },
+  { name: "The Global Fund", logo: globalFund },
+  { name: "Nandan Nilekani Philanthropies", logo: nilekani },
 ];
