@@ -1,11 +1,14 @@
+import thumb1 from "../assets/thumb-1.jpg";
+import thumb2 from "../assets/thumb-2.png";
+
 function About() {
   const thumbnails = [
     {
-      image: "/assets/thumb-1.jpg",
+      image: thumb1,
       quote: "Leveraging technology for sustainable development",
     },
     {
-      image: "/assets/thumb-2.png",
+      image: thumb2,
       quote: "Digitising civic services for better life",
     },
   ];

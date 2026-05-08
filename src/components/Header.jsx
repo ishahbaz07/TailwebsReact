@@ -1,6 +1,8 @@
 import { useRef } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import logo from "../assets/eGov-Foundation.png";
+import flag from "../assets/en.svg";
+
 import {
   openDropdown,
   closeDropdown,
@@ -128,7 +130,7 @@ function Header() {
             </a>
             <button className="flex items-center gap-1.5 px-3 py-1 text-sm  text-[#1577DD] hover:bg-sky-100 rounded-md transition-colors">
               <img
-                src="/assets/en.svg"
+                src={flag}
                 alt="English"
                 className="w-5 h-3.5 rounded-sm"
                 onError={(e) => (e.target.style.display = "none")}

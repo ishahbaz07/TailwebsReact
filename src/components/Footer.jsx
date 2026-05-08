@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import eGove from "../assets/eGov-Foundation.png";
+
 const footerLinks = {
   column1: [
     { name: "Home", href: "#" },
@@ -76,7 +78,7 @@ function Footer() {
             {/* logo*/}
             <div>
               <img
-                src="/assets/eGov-Foundation.png"
+                src={eGove}
                 alt="eGov Foundation"
                 className="h-10 w-auto mb-8"
               />

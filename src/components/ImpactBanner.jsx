@@ -1,8 +1,9 @@
+import impactBanner from "../assets/Map-Hover-1.png";
 function ImpactBanner() {
   return (
     <section
       className="relative min-h-[600px] md:h-screen md:min-h-[800px] mt-0  bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/assets/Map-Hover-1.png')" }}
+      style={{ backgroundImage: `url(${impactBanner})` }}
     >
       <div className="absolute inset-0 bg-black/35"></div>
 
